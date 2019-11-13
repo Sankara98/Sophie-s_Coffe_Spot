@@ -4,6 +4,7 @@ import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from '../components/Global/BackgroundSection';
+import Info from '../components/Home/info';
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
@@ -12,6 +13,7 @@ const IndexPage = ({data}) => (
     title="Sophie's Coffee Spot"
     styleClass="default-background"
     />
+    <Info />
   </Layout>
 );
 
