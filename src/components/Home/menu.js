@@ -25,7 +25,7 @@ export default class Menu extends Component {
         let tempItems = [...this.state.items];
         if(category ==="all") {
             this.setState(() => {
-                return {coffeItems: tempItems}
+                return {coffeeItems: tempItems}
             })
         }
             else{
